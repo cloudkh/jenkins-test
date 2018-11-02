@@ -15,6 +15,6 @@ public class ExternalApiApplication {
 
     @GetMapping("/")
     public String index () {
-        return "Hello External API";
+        return "Hello External API modified by jang";
     }
 }
